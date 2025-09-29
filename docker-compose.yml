@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+
+  api:
+
+    build: .
+
+    image: fastapi-fgts-app
+
+    container_name: fastapi_fgts_container
+
+    ports:
+      - "8302:8000"
+
+    env_file:
+      - .env
+    restart: unless-stopped

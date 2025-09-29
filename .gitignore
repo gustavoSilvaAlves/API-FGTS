@@ -1,0 +1,25 @@
+# Arquivo de segredos
+.env
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de ambiente virtual
+.venv/
+venv/
+env/
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+
+# Arquivos do Docker
+.dockerignore
+docker-compose.override.yml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
