@@ -60,7 +60,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 ---
 
-## 📖Como Usar a API
+## 📖 Como Usar a API
 
 Após iniciar a aplicação, você pode acessar a documentação interativa em:
 
@@ -103,4 +103,5 @@ curl -X 'POST' \
 
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 
